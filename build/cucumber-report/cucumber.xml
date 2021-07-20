@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="42.908">
+<testcase classname="Prueba para banistmo" name="Escenario 1 para la prueba de Banitsmo" time="21.488">
+<failure message="No se abrio el documento correcto" type="java.lang.AssertionError"><![CDATA[Given Se ejecuta el explorador..............................................passed
+And Se selecciona la opcion acerca de nosotros..............................passed
+And Se selecciona proveedores en la informacion coorporativa................passed
+When Se descarga el documento de Politicas de tratamiento y de proteccion de datos personales de proveedores.passed
+Then Se valida que el documento abierto sea el correcto.....................failed
+
+StackTrace:
+java.lang.AssertionError: No se abrio el documento correcto
+	at org.junit.Assert.fail(Assert.java:89)
+	at tasks.ThenTask.valirdardocumento(ThenTask.java:29)
+	at steps.ThenSteps.Sevalidaqueeldocumentoabiertoseaelcorrecto(ThenSteps.java:13)
+	at ✽.Se valida que el documento abierto sea el correcto(file:///C:/Prueba/src/test/resources/features/test_suites.feature:9)
+]]></failure>
+</testcase>
+<testcase classname="Prueba para banistmo" name="Escenario 2 para la prueba de Banitsmo" time="10.982">
+<system-out><![CDATA[Given Se ejecuta el explorador..............................................passed
+And Se seleciona la opcion negocios.........................................passed
+When Yo necesito "Ahorrar o Invertir" para "Obtener una rentabilidad estable y segura".passed
+Then Aparece la opcion "Cuenta de Ahorros"..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Prueba para banistmo" name="Escenario 2 para la prueba de Banitsmo 2" time="10.21">
+<system-out><![CDATA[Given Se ejecuta el explorador..............................................passed
+And Se seleciona la opcion negocios.........................................passed
+When Yo necesito "Ahorrar o Invertir" para "Obtener una mayor rentabilidad a un mayor riesgo".passed
+Then Aparece la opcion "InvesBot"...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

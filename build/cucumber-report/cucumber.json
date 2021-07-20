@@ -1,0 +1,259 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-20T13:25:38.853Z",
+        "line": 4,
+        "name": "Escenario 1 para la prueba de Banitsmo",
+        "description": "",
+        "id": "prueba-para-banistmo;escenario-1-para-la-prueba-de-banitsmo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7855000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Se ejecuta el explorador",
+            "match": {
+              "location": "steps.GivenSteps.seejecutaelexplorador()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4207000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Se selecciona la opcion acerca de nosotros",
+            "match": {
+              "location": "steps.GivenSteps.Seseleccionalaopcionacercadenosotros()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7281000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Se selecciona proveedores en la informacion coorporativa",
+            "match": {
+              "location": "steps.GivenSteps.Seseleccionaproveedoresenlainformacioncoorporativa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Se descarga el documento de Politicas de tratamiento y de proteccion de datos personales de proveedores",
+            "match": {
+              "location": "steps.WhenSteps.SedescargaeldocumentodePoliticasdetratamientoydeprotecciondedatospersonalesdeproveedores()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: No se abrio el documento correcto\r\n\tat org.junit.Assert.fail(Assert.java:89)\r\n\tat tasks.ThenTask.valirdardocumento(ThenTask.java:29)\r\n\tat steps.ThenSteps.Sevalidaqueeldocumentoabiertoseaelcorrecto(ThenSteps.java:13)\r\n\tat ✽.Se valida que el documento abierto sea el correcto(file:///C:/Prueba/src/test/resources/features/test_suites.feature:9)\r\n",
+              "duration": 2008000000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "Se valida que el documento abierto sea el correcto",
+            "match": {
+              "location": "steps.ThenSteps.Sevalidaqueeldocumentoabiertoseaelcorrecto()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PruebaBanistmo"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-20T13:26:00.348Z",
+        "line": 18,
+        "name": "Escenario 2 para la prueba de Banitsmo",
+        "description": "",
+        "id": "prueba-para-banistmo;escenario-2-para-la-prueba-de-banitsmo;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3809000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Se ejecuta el explorador",
+            "match": {
+              "location": "steps.GivenSteps.seejecutaelexplorador()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4871000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Se seleciona la opcion negocios",
+            "match": {
+              "location": "steps.GivenSteps.Seselecionalaopcionnegocios()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2213000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Yo necesito \"Ahorrar o Invertir\" para \"Obtener una rentabilidad estable y segura\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ahorrar o Invertir",
+                  "offset": 13
+                },
+                {
+                  "val": "Obtener una rentabilidad estable y segura",
+                  "offset": 39
+                }
+              ],
+              "location": "steps.WhenSteps.yo_necesito_necesito_para_para(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Aparece la opcion \"Cuenta de Ahorros\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cuenta de Ahorros",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.ThenSteps.apareceLaOpcion(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PruebaBanistmo"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-20T13:26:11.331Z",
+        "line": 19,
+        "name": "Escenario 2 para la prueba de Banitsmo",
+        "description": "",
+        "id": "prueba-para-banistmo;escenario-2-para-la-prueba-de-banitsmo;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3958000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Se ejecuta el explorador",
+            "match": {
+              "location": "steps.GivenSteps.seejecutaelexplorador()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3996000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Se seleciona la opcion negocios",
+            "match": {
+              "location": "steps.GivenSteps.Seselecionalaopcionnegocios()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2218000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Yo necesito \"Ahorrar o Invertir\" para \"Obtener una mayor rentabilidad a un mayor riesgo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ahorrar o Invertir",
+                  "offset": 13
+                },
+                {
+                  "val": "Obtener una mayor rentabilidad a un mayor riesgo",
+                  "offset": 39
+                }
+              ],
+              "location": "steps.WhenSteps.yo_necesito_necesito_para_para(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Aparece la opcion \"InvesBot\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "InvesBot",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.ThenSteps.apareceLaOpcion(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PruebaBanistmo"
+          }
+        ]
+      }
+    ],
+    "name": "Prueba para banistmo",
+    "description": "",
+    "id": "prueba-para-banistmo",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/test_suites.feature",
+    "tags": [
+      {
+        "name": "@PruebaBanistmo",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

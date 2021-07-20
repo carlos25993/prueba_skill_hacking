@@ -6,9 +6,6 @@ import org.openqa.selenium.WebDriver;
 import steps.CommonStep;
 import steps.Timesteps;
 
-import static Objects.GivenObjects.btnDescargarPoliticaTratamiento;
-import static Objects.WhenObjects.docPoliticaTratamiento;
-
 public class ThenTask extends CommonStep {
     WebDriver driver = getDriver();
     private Timesteps times = new Timesteps();
@@ -17,7 +14,6 @@ public class ThenTask extends CommonStep {
     {
         times.esperauntiempo();
         String titu;
-        String titu2;
         titu = driver.getCurrentUrl();
         System.out.println("El robot abrio el documento:"+titu);
         if (titu.contains("datos-personales-de-proveedores-grupo-bancolombia.pdf"))

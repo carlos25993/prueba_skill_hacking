@@ -1,7 +1,6 @@
 package steps;
 
 import io.cucumber.java.en.When;
-import org.openqa.selenium.By;
 import tasks.WhenTask;
 
 public class WhenSteps{

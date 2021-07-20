@@ -1,0 +1,3 @@
+1) git add .
+2) git commit -m "Agregar proyecto"
+3) git push origin proyecto1.0

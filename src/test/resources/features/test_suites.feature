@@ -1,5 +1,5 @@
-@PruebaBanistmo
-Feature: Prueba para banistmo
+@PruebaSH
+Feature: Prueba para Skill Hacking
 
   Scenario: Escenario 1 para la prueba de Banitsmo
     Given Se ejecuta el explorador
